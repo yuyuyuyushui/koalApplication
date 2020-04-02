@@ -1,4 +1,6 @@
 from core.rest_client2 import *
+
+
 class Config_seconde(RestClient1):
     def __init__(self,**kwargs):
         super(Config_seconde, self).__init__(**kwargs)
